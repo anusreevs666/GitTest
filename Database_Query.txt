@@ -1,0 +1,8 @@
+select * from Contacts where email,phoneno IS NOT NULL;
+
+Select c.customername,o.orderIf,o.orderDate FROM customer AS c LEFT JOIN Orders As o ON c.id=o.customerId;
+
+SELECT COUNT(DISTINCT groupId) from users;
+
+
+
